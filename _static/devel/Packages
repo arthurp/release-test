@@ -1,0 +1,170 @@
+Package: katana-apps
+Architecture: amd64
+Version: 0.1.11~dev+73.182.dirty.453f49.unmerged
+Priority: optional
+Section: devel
+Maintainer: support@katanagraph.com
+Installed-Size: 287472
+Depends: katana-tools (= 0.1.11~dev+73.182.dirty.453f49.unmerged), libkatana (= 0.1.11~dev+73.182.dirty.453f49.unmerged), libarrow200 (>= 2.0.0), libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Filename: ./_CPack_Packages/Linux/DEB/katana-apps_0.1.11~dev+73.182.dirty.453f49.unmerged_amd64.deb
+Size: 75435784
+MD5sum: a050cfd555c375e686e2bf4be83b03a9
+SHA1: 578882013c7fefb018a234fbdc479900dc73e25d
+SHA256: b8939845fc3b3b00ce44f4202c7d8707da6d64ae7780c4cc96d4e92be2e4a10f
+SHA512: bde04765a5b2c3052045dc03adbf2622682fda862bc193caf9409beff26ffb918eb9e0d5be761caf629b193383b3e42b82a661f2e0313493d50770b19519ce0b
+Homepage: https://katanagraph.com
+Description: Katana Graph applications and CLI algorithms
+
+Package: katana-tools
+Architecture: amd64
+Version: 0.1.11~dev+73.182.dirty.453f49.unmerged
+Priority: optional
+Section: devel
+Maintainer: support@katanagraph.com
+Installed-Size: 41338
+Depends: libkatana (= 0.1.11~dev+73.182.dirty.453f49.unmerged), libarrow200 (>= 2.0.0), libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libxml2 (>= 2.7.4)
+Filename: ./_CPack_Packages/Linux/DEB/katana-tools_0.1.11~dev+73.182.dirty.453f49.unmerged_amd64.deb
+Size: 10584326
+MD5sum: d8f8e1b26616eee23e5a843f624593c7
+SHA1: f805821c5ac39b206e1ed4cd798be74ae6c14e94
+SHA256: b179dbc9eb3eda122b43d1dc1681e4c94ea5663edb69f0aa5df5dd1c060b3656
+SHA512: 598ab079d553278f56c81eae8e23d05dcc2efb02643e032c68f8d1e83d87254b77b8dc8ed8289993e30c8e920114738fd5de0210182381fa039a1276db020b43
+Homepage: https://katanagraph.com
+Description: Katana Graph system management and data processing tools
+
+Package: libkatana-dev
+Architecture: amd64
+Version: 0.1.11~dev+73.182.dirty.453f49.unmerged
+Priority: optional
+Section: devel
+Maintainer: support@katanagraph.com
+Installed-Size: 1090
+Depends: libkatana (= 0.1.11~dev+73.182.dirty.453f49.unmerged)
+Filename: ./_CPack_Packages/Linux/DEB/libkatana-dev_0.1.11~dev+73.182.dirty.453f49.unmerged_amd64.deb
+Size: 227326
+MD5sum: 2cf0dda7e31cf4ad848c4c7fe3a082f3
+SHA1: 8664f3c8dabb8a04c684a7c26be8f6f7da450e27
+SHA256: 34323e01878dbb012a3f8c1a6c078e0f445d275db1611f3cef8c98fd0dbf0e4d
+SHA512: 0c3337d950efe9a4c17bec8daa8b57e617b6752115166180c1d538246f2e101f354abf504a10909f32032513261cfc06b3685f58f7e867c00c97dce2ce4a4c68
+Homepage: https://katanagraph.com
+Description: Katana Graph development libraries and headers
+
+Package: libkatana
+Architecture: amd64
+Version: 0.1.11~dev+73.182.dirty.453f49.unmerged
+Priority: optional
+Section: devel
+Maintainer: support@katanagraph.com
+Installed-Size: 220406
+Depends: libarrow200 (>= 2.0.0), libc6 (>= 2.10), libcurl4 (>= 7.16.2), libdw1 (>= 0.126), libgcc-s1 (>= 4.2), libnuma1 (>= 2.0.11), libparquet200 (>= 2.0.0), libstdc++6 (>= 9)
+Filename: ./_CPack_Packages/Linux/DEB/libkatana_0.1.11~dev+73.182.dirty.453f49.unmerged_amd64.deb
+Size: 51934094
+MD5sum: afef11a540f4375e8323a6ad3562a6c3
+SHA1: 9582d1f1a00a2f058e193413b851711609ba0f72
+SHA256: b584111d8abf160e98cab2a876c8aa59ca52c74050921bb137152ed736d398a5
+SHA512: 1e002af77b5b8f4255529df5e3c99f7d219cf230b1fbacf1be2a224c2f18601e3e9e97c7e62a438bde789ddab9740db4f4d0e36adb36d5af99d4f197f543d07e
+Homepage: https://katanagraph.com
+Description: Katana Graph runtime libraries
+
+Package: python3-katana
+Architecture: amd64
+Version: 0.1.11~dev+73.182.dirty.453f49.unmerged
+Priority: optional
+Section: devel
+Maintainer: support@katanagraph.com
+Installed-Size: 179873
+Depends: libkatana (= 0.1.11~dev+73.182.dirty.453f49.unmerged), python3-minimal, libc6 (>= 2.11), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./_CPack_Packages/Linux/DEB/python3-katana_0.1.11~dev+73.182.dirty.453f49.unmerged_amd64.deb
+Size: 36528008
+MD5sum: 05a00b68d3631568bb17ae68bb84be0a
+SHA1: 9fcc5cf7539f60c62f1e7dc4b91d734cd3e1dcb2
+SHA256: dbb872d72d7457fba32ce0fe5d21910186f9afb79218412d64ff708b5e882940
+SHA512: d16daaf7bc241c16765f721f4887fb2da1f201a1c7b8f8a501190763c4dd7a4551c16ab964470d100f18558a163f6e0a22a1a43793e8cd96cf9a0f6df20362c6
+Homepage: https://katanagraph.com
+Description: Katana Graph Python API
+
+Package: katana-apps
+Architecture: amd64
+Version: 0.1.11~dev+73.182.dirty.453f49.unmerged
+Priority: optional
+Section: devel
+Maintainer: support@katanagraph.com
+Installed-Size: 287472
+Depends: katana-tools (= 0.1.11~dev+73.182.dirty.453f49.unmerged), libkatana (= 0.1.11~dev+73.182.dirty.453f49.unmerged), libarrow200 (>= 2.0.0), libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Filename: ./katana-apps_0.1.11~dev+73.182.dirty.453f49.unmerged_amd64.deb
+Size: 75435784
+MD5sum: a050cfd555c375e686e2bf4be83b03a9
+SHA1: 578882013c7fefb018a234fbdc479900dc73e25d
+SHA256: b8939845fc3b3b00ce44f4202c7d8707da6d64ae7780c4cc96d4e92be2e4a10f
+SHA512: bde04765a5b2c3052045dc03adbf2622682fda862bc193caf9409beff26ffb918eb9e0d5be761caf629b193383b3e42b82a661f2e0313493d50770b19519ce0b
+Homepage: https://katanagraph.com
+Description: Katana Graph applications and CLI algorithms
+
+Package: katana-tools
+Architecture: amd64
+Version: 0.1.11~dev+73.182.dirty.453f49.unmerged
+Priority: optional
+Section: devel
+Maintainer: support@katanagraph.com
+Installed-Size: 41338
+Depends: libkatana (= 0.1.11~dev+73.182.dirty.453f49.unmerged), libarrow200 (>= 2.0.0), libc6 (>= 2.4), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libxml2 (>= 2.7.4)
+Filename: ./katana-tools_0.1.11~dev+73.182.dirty.453f49.unmerged_amd64.deb
+Size: 10584326
+MD5sum: d8f8e1b26616eee23e5a843f624593c7
+SHA1: f805821c5ac39b206e1ed4cd798be74ae6c14e94
+SHA256: b179dbc9eb3eda122b43d1dc1681e4c94ea5663edb69f0aa5df5dd1c060b3656
+SHA512: 598ab079d553278f56c81eae8e23d05dcc2efb02643e032c68f8d1e83d87254b77b8dc8ed8289993e30c8e920114738fd5de0210182381fa039a1276db020b43
+Homepage: https://katanagraph.com
+Description: Katana Graph system management and data processing tools
+
+Package: libkatana-dev
+Architecture: amd64
+Version: 0.1.11~dev+73.182.dirty.453f49.unmerged
+Priority: optional
+Section: devel
+Maintainer: support@katanagraph.com
+Installed-Size: 1090
+Depends: libkatana (= 0.1.11~dev+73.182.dirty.453f49.unmerged)
+Filename: ./libkatana-dev_0.1.11~dev+73.182.dirty.453f49.unmerged_amd64.deb
+Size: 227326
+MD5sum: 2cf0dda7e31cf4ad848c4c7fe3a082f3
+SHA1: 8664f3c8dabb8a04c684a7c26be8f6f7da450e27
+SHA256: 34323e01878dbb012a3f8c1a6c078e0f445d275db1611f3cef8c98fd0dbf0e4d
+SHA512: 0c3337d950efe9a4c17bec8daa8b57e617b6752115166180c1d538246f2e101f354abf504a10909f32032513261cfc06b3685f58f7e867c00c97dce2ce4a4c68
+Homepage: https://katanagraph.com
+Description: Katana Graph development libraries and headers
+
+Package: libkatana
+Architecture: amd64
+Version: 0.1.11~dev+73.182.dirty.453f49.unmerged
+Priority: optional
+Section: devel
+Maintainer: support@katanagraph.com
+Installed-Size: 220406
+Depends: libarrow200 (>= 2.0.0), libc6 (>= 2.10), libcurl4 (>= 7.16.2), libdw1 (>= 0.126), libgcc-s1 (>= 4.2), libnuma1 (>= 2.0.11), libparquet200 (>= 2.0.0), libstdc++6 (>= 9)
+Filename: ./libkatana_0.1.11~dev+73.182.dirty.453f49.unmerged_amd64.deb
+Size: 51934094
+MD5sum: afef11a540f4375e8323a6ad3562a6c3
+SHA1: 9582d1f1a00a2f058e193413b851711609ba0f72
+SHA256: b584111d8abf160e98cab2a876c8aa59ca52c74050921bb137152ed736d398a5
+SHA512: 1e002af77b5b8f4255529df5e3c99f7d219cf230b1fbacf1be2a224c2f18601e3e9e97c7e62a438bde789ddab9740db4f4d0e36adb36d5af99d4f197f543d07e
+Homepage: https://katanagraph.com
+Description: Katana Graph runtime libraries
+
+Package: python3-katana
+Architecture: amd64
+Version: 0.1.11~dev+73.182.dirty.453f49.unmerged
+Priority: optional
+Section: devel
+Maintainer: support@katanagraph.com
+Installed-Size: 179873
+Depends: libkatana (= 0.1.11~dev+73.182.dirty.453f49.unmerged), python3-minimal, libc6 (>= 2.11), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
+Filename: ./python3-katana_0.1.11~dev+73.182.dirty.453f49.unmerged_amd64.deb
+Size: 36528008
+MD5sum: 05a00b68d3631568bb17ae68bb84be0a
+SHA1: 9fcc5cf7539f60c62f1e7dc4b91d734cd3e1dcb2
+SHA256: dbb872d72d7457fba32ce0fe5d21910186f9afb79218412d64ff708b5e882940
+SHA512: d16daaf7bc241c16765f721f4887fb2da1f201a1c7b8f8a501190763c4dd7a4551c16ab964470d100f18558a163f6e0a22a1a43793e8cd96cf9a0f6df20362c6
+Homepage: https://katanagraph.com
+Description: Katana Graph Python API
+
